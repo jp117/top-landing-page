@@ -2,8 +2,9 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -67,4 +68,6 @@ p {
 
 .footer {
     color: white;
+    margin-top: auto;
+    padding-bottom: 15px;
 }
