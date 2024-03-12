@@ -3,6 +3,32 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    list-style: none;
+    padding-left: 32px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header,
